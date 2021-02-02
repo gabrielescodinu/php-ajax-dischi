@@ -18,7 +18,7 @@ let app = new Vue ({
     axios.get("db.php")
     .then(response => {
       console.log(response);
-      _self.albums = response.data.response;
+      _self.albums = response.data;
     })
     .catch(function (error) {
       console.log(error);
