@@ -15,7 +15,7 @@ let app = new Vue ({
   mounted() {
     const _self = this;
 
-    axios.get("index.php")
+    axios.get("db.php")
     .then(response => {
       console.log(response);
       _self.albums = response.data.response;
