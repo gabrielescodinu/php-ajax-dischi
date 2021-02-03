@@ -1,4 +1,5 @@
 <?php
+
 $database = [
     [
         'albumName' => "NEW JERSEY",
@@ -49,6 +50,7 @@ $database = [
         'cover' => "img/81r3FVfNG3L._SY355_.jpg"
     ],
 ];
+
 header('Content-Type: application/json');
 echo json_encode($database);
     

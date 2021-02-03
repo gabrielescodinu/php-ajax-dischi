@@ -6,22 +6,22 @@
 // In base a cosa scegliamo nella select vedremo i corrispondenti cd.
 
 let app = new Vue ({
-  el: "#app",
-  data: {
-    albums: [],
-  },
-  methods: {
-  },
-  mounted() {
-    const _self = this;
-
-    axios.get("db.php")
-    .then(response => {
-      console.log(response);
-      _self.albums = response.data;
-    })
-    .catch(function (error) {
-      console.log(error);
-    });
-  },
-})
+    el: "#app",
+    data: {
+      albums: [],
+    },
+    methods: {
+    },
+    mounted() {
+      const _self = this;
+  
+      axios.get("db.php")
+      .then(response => {
+        console.log(response);
+        _self.albums = response.data;
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
+    },
+  })

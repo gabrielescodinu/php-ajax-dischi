@@ -6,7 +6,7 @@
     <title>Document</title>
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./dist/css/app.css">
 </head>
 <body>
     <header>
@@ -36,7 +36,6 @@
         crossorigin="anonymous">
     </script>
     <script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
-    <script src="main.js"></script>
-    
+    <script src="./dist/js/app.js"></script>    
 </body>
 </html>
